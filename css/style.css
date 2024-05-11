@@ -1,0 +1,23 @@
+.section-title {
+    width: fit-content;
+}
+
+.section-title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    border-bottom: .125rem dotted var(--bs-dark-bg-subtle) !important;
+}
+
+.icon {
+    width: 4.375rem;
+    height: 4.375rem;
+    transition: all 0.5s ease;
+}
+
+.services .item:hover .icon {
+    background-color: var(--bs-dark) !important;
+    color: var(--bs-white) !important;
+}
